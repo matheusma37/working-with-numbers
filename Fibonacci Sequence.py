@@ -14,6 +14,4 @@ if __name__ == '__main__':
     print('Fibonacci\'s sequence for {} is: '.format(sequenceNumber))
     for value in range(sequenceNumber+1):
         print(previous, end=' ')
-        auxiliar = current
-        current += previous
-        previous = auxiliar
+        current, previous = current+previous, current
