@@ -27,6 +27,10 @@ if __name__ == '__main__':
         exit()
     
     number = math.fabs(number)
+    
+    if number < 2:
+        print('There are no prime numbers for {}.'.format(int(number)))
+        exit()
 
     while True:
         if number % primal == 0:
