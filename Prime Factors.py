@@ -14,8 +14,7 @@ def nextPrime(value):
             return init
         init += 1
 
-if __name__ == '__main__':
-
+def main():
     number = 0
     primal = 2
     primeFactors = []
@@ -43,3 +42,6 @@ if __name__ == '__main__':
 
     print('Division by prime factors: ', primeFactors)
     print('Prime factors: ', set(primeFactors))
+
+if __name__ == '__main__':
+    main()
