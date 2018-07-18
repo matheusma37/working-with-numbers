@@ -12,8 +12,7 @@ def nextPrime(value):
             return init
         init += 1
 
-if __name__ == '__main__':
-    
+def main():
     prime = 2
     primes = [prime]
     wantAnother = True
@@ -27,3 +26,6 @@ if __name__ == '__main__':
         primes.append(prime)
     
     print('Program completed.')
+
+if __name__ == '__main__':
+    main()
