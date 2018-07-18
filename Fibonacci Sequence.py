@@ -1,4 +1,4 @@
-if __name__ == '__main__':
+def main():
     sequenceNumber = -1
     current = 1
     previous = 0;
@@ -15,3 +15,6 @@ if __name__ == '__main__':
     for value in range(sequenceNumber+1):
         print(previous, end=' ')
         current, previous = current+previous, current
+
+if __name__ == '__main__':
+    main()
