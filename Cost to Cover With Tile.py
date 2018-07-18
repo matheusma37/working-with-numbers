@@ -11,7 +11,7 @@ def inputValue(text):
             print('Please input a valid value.')
     return value
 
-if __name__ == '__main__':
+def main():
     floorHeight = inputValue('area height')
     floorWidth = inputValue('area width')
 
@@ -27,3 +27,6 @@ if __name__ == '__main__':
     print('The total cost to cover the floor is $ {}.'
           .format(totalCost)
           )
+
+if __name__ == '__main__':
+    main()
