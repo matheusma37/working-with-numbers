@@ -1,4 +1,4 @@
-if __name__ == '__main__':
+def main():
     PI = 3
     signalExchanger = 1
     divider = 2
@@ -20,3 +20,6 @@ Input: '''))
         signalExchanger *= -1
 
     print('The result of PI is: {}'.format(PI))
+
+if __name__ == '__main__':
+    main()
